@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <!-- Primera seccion -->
+        <div class="section">
+            <div class="subsection">
+                <h1>Daniela Itzel Velazco Diaz</h1>
+                <p>Diseñadora Web</p>
+                <div class="status">
+                    <p class="p-status">Available for work</p>
+                    <div class="dot"></div>
+                </div>
+                <img class="perfil" src="./imagenes/Foto.png" alt="Foto">
+            </div>
+            <div class="subsection">
+                <p class="present">Hola, soy diseñadora web, mis aptitudes y habiliades.</p>
+                <div>
+                    <button class="btn-black">Work</button>
+                    <button class="btn-lined">CV Download</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Segunda seccion -->
+        <div class="section icon">
+            <img class="item button" src="./imagenes/GitHub.png" alt="Icono de github">
+            <img class="item button" src="./imagenes/linkedin.png" alt="Icono de linkedin">
+            <img class="item button" src="./imagenes/whatsapp.jpg" alt="Icono de whatsapp">
+            <img class="item button" src="./imagenes/facebook.png" alt="Icono de facebook">
+            <img class="item button" src="./imagenes/instagram.png" alt="Icono de instagram">
+        </div>
+        <!-- Tercera seccion -->
+
+        <div class="section"></div>
+
+        <!-- contacto -->
+        <div class="section">
+            <form id="form">
+                <div class="field">
+                    <label for="from_name">from_name</label>
+                    <input type="text" name="from_name" id="from_name">
+                </div>
+                <div class="field">
+                    <label for="email_id">email_id</label>
+                    <input type="text" name="email_id" id="email_id">
+                </div>
+                <div class="field">
+                    <label for="message">message</label>
+                    <input type="text" name="message" id="message">
+                </div>
+    
+                <input type="submit" id="button" value="Send Email">
+            </form>
+        </div>
+    </div>
+
+    <!-- Codigo email.js -->
+
+    <script src="./email.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('iA3PDkjHfYOa1CfqC')
+    </script>
+</body>
+
+</html>
