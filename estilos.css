@@ -3,18 +3,18 @@
 body {
     background-color: rgb(236, 233, 229);
     margin: 0;
-    
+
     .roboto-thin {
         font-family: "Roboto", sans-serif;
         font-weight: 100;
         font-style: normal;
-      }
+    }
 }
 
 .container {
-    height: 100px; 
+    height: 100px;
     max-width: 800px;
-    width: 100% ;
+    width: 100%;
     margin: 50px auto;
 }
 
@@ -85,7 +85,7 @@ body {
     margin-left: 12px;
 }
 
-.btn-lined:hover{
+.btn-lined:hover {
     background-color: black;
     color: #fff;
     cursor: pointer;
@@ -113,88 +113,219 @@ body {
 
 .field {
     margin-bottom: 10px;
-  }
-  
-  .field label {
+}
+
+.field label {
     display: block;
     font-size: 12px;
     color: #777;
-  }
-  
-  .field input {
+}
+
+.field input {
     display: block;
     min-width: 250px;
     line-height: 1.5;
     font-size: 14px;
-  }
-  
-  input[type="submit"] {
+}
+
+input[type="submit"] {
     display: block;
     padding: 6px 30px;
     font-size: 14px;
     background-color: #4460AA;
     color: #fff;
     border: none
-  }
+}
 
-  /* contacto */
-  .email {
+/* contacto */
+.email {
     justify-content: space-between;
     height: 20px;
 
 
-  }
+}
 
-  .sendemail {
+.sendemail {
     width: 30px;
     height: auto;
 
-  }
+}
 
-  .title {
+.title {
     border-bottom: 0;
-  }
+}
 
-  #form {
+#form {
     justify-content: center;
     align-items: center;
     padding: 20px;
-  }
+}
 
-  .field {
-    margin-bottom: 20px; 
-  }
+.field {
+    margin-bottom: 20px;
+}
 
-  #button{
+#button {
     background-color: black;
     color: #fff;
     font-size: medium;
     border-radius: 20px;
-  }
+}
 
-  #button:hover {
+#button:hover {
     background-color: #fff;
     cursor: pointer;
     color: black;
-  }
+}
 
-  /* Pie de pagina */
+/* Pie de pagina */
 
-  .footer-content {
+.footer-content {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
     text-align: center;
-  }
-  
-  .section footer {
-    display: flex;
-    justify-content: center; 
+}
+
+.section footer {
+    justify-content: center;
     text-align: center;
-  }
+}
 
-  .social img{
-    width: 5%;
-    gap: 50%;
+.social img {
+    width: 20%;
+    height: auto;
 
-  }
+}
+
+.social {
+    display: flex;
+    gap: 15px;
+}
+
+#git {
+    width: 200%;
+    height: auto;
+}
+
+/* Barra de navegacion */
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 30px;
+    height: 20%;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    margin: 20% 15%;
+}
+
+/* Parte de certificacion */
+.infcert {
+    font-size: 1em;
+    height: 20%;
+}
+
+.certification {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.certification img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Parte de experiencia */
+
+.infexp {
+    font-size: 1em;
+    height: 20%;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #978e8e;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.experience>div {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.experience>div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.experience h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+.experience p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Parte de educacion */
+
+.infedu {
+    font-size: 1em;
+    height: 20%;
+}
+
+.education {
+    padding: 30px;
+    /* Espacio interno alrededor del contenido */
+    background-color: #f4f4f4;
+    /* Color de fondo suave */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    display: flex;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Sombra ligera para darle profundidad */
+}
+
+
+/* Estilo para los títulos */
+.education h2 {
+    font-size: 1.25rem;
+    /* Tamaño de fuente para los títulos */
+    margin: 0 20px 5px 0;
+    /* Espacio debajo del título */
+    color: #333;
+    /* Color del texto */
+}
+
+/* Estilo para los párrafos */
+.education p {
+    margin: 5px 0;
+    /* Espacio arriba y abajo de los párrafos */
+    color: #555;
+    /* Color del texto */
+}
