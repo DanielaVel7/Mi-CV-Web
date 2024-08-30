@@ -9,11 +9,29 @@
 </head>
 
 <body>
-
+    <header>
+        <nav class="navbar">
+            <a href="#section">
+                <img src="./imagenes/home.svg" alt="icono">
+            </a>
+            <a href="#edu">
+                <img src="./imagenes/port.svg" alt="icono">
+            </a>
+            <a href="#exp">
+                <img src="./imagenes/exp.svg" alt="icono">
+            </a>
+            <a href="#cert">
+                <img src="./imagenes/book.svg" alt="icono">
+            </a>
+            <a href="#cont">
+                <img src="./imagenes/mail.svg" alt="icono">
+            </a>
+        </nav>
+    </header>
 
     <div class="container">
         <!-- Primera seccion -->
-        <div class="section">
+        <div id="section" class="section">
             <div class="subsection">
                 <h1>Daniela Itzel Velazco Diaz</h1>
                 <p>Diseñadora Web</p>
@@ -24,9 +42,13 @@
                 <img class="perfil" src="./imagenes/Foto.png" alt="Foto">
             </div>
             <div class="subsection">
-                <p class="present">Hola, soy diseñadora web, mis aptitudes y habiliades.</p>
+                <p class="present">Hola, soy desarrolladora web jr. Me considero una persona empática, responsable y
+                    comprometida con su trabajo, actualmente me encuentro interesada en el campo de las IT y seguir
+                    aprendiendo sobre el área. Confiada de crecer mis habilidades y conocimientos.</p>
                 <div>
-                    <button class="btn-black">Work</button>
+                    <a href="https://proyecto-candy-shop-dias.netlify.app/" target="_blank">
+                        <button class="btn-black">Work</button>
+                    </a>
                     <a href="./files/CV-ACT-2024.pdf" download="cv_daniela">
                         <button class="btn-lined">CV Download</button>
                     </a>
@@ -36,54 +58,127 @@
 
         <!-- Segunda seccion -->
         <div class="section icon">
+            <img class="item button" src="./imagenes/css.png" alt="Icono de css">
             <img class="item button" src="./imagenes/GitHub.png" alt="Icono de github">
-            <img class="item button" src="./imagenes/linkedin.png" alt="Icono de linkedin">
-            <img class="item button" src="./imagenes/whatsapp.jpg" alt="Icono de whatsapp">
-            <img class="item button" src="./imagenes/facebook.png" alt="Icono de facebook">
-            <img class="item button" src="./imagenes/instagram.png" alt="Icono de instagram">
+            <img class="item button" src="./imagenes/html.png" alt="Icono de html">
+            <img class="item button" src="./imagenes/js.png" alt="Icono de js">
+            <img class="item button" src="./imagenes/sap.jpeg" alt="Icono de sap">
         </div>
         <!-- Tercera seccion -->
 
-        <div class="section"></div>
+        <div id="edu" class="section infedu">
+            <h2>EDUCACIÓN</h2>
+        </div>
+
+        <div class="section education">
+            <div>
+                <h2>Colegio de Ciencias y Humanidades Oriente</h2>
+                <p>Técnico en laboratorio químico</p>
+                <p>2013-2016</p>
+            </div>
+            <div>
+                <h2>Mujer Digital Junior Archievement</h2>
+                <p>Desarrollador Web</p>
+                <p>2024</p>
+            </div>
+        </div>
+
+        <!-- Cuarta seccion -->
+        <div id="exp" class="section infexp">
+            <h2>EXPERIENCIA</h2>
+        </div>
+
+        <div class="section experience">
+            <div>
+                <h2>Ejecutiva de Mesa de Control</h2>
+                <p>Hospital San Angel Inn</p>
+                <p>2021-2023</p>
+            </div>
+
+            <div>
+                <h2>Auxiliar de Farmacia</h2>
+                <p>Hospital San Angel Inn</p>
+                <p>2020-2021</p>
+            </div>
+
+            <div>
+                <h2>Repartidor de Farmacia</h2>
+                <p>Hospital San Angel Inn</p>
+                <p>2019-2020</p>
+            </div>
+        </div>
+
+        <!-- Certificaciones -->
+        <div id="cert" class="infcert">
+            <h2>CERTIFICACIÓN</h2>
+        </div>
+
+        <div class="centification">
+            <img src="./imagenes/1.png" alt="Certificado1">
+            <img src="./imagenes/2.png" alt="Certificado2">
+            <img src="./imagenes/3.png" alt="Certificado3">
+            <img src="./imagenes/4.png" alt="Certificado4">
+            <img src="./imagenes/5.png" alt="Certificado5">
+
+
+        </div>
 
         <!-- Seccion de contacto -->
-
-        <div class="section email">
+        <div id="Cont" class="section email">
             <h3 class="title">CONTACTO</h1>
                 <div class="message">
                     <img src="./imagenes/sendemail.svg" class="sendemail" alt="Icono de email">
                 </div>
-            
         </div>
 
         <!-- contacto -->
-        <div class="section">
+        <div id="form" class="section">
             <form id="form">
                 <div class="field">
-                    <label for="from_name">from_name</label>
+                    <label for="from_name">Nombre</label>
                     <input type="text" name="from_name" id="from_name">
                 </div>
                 <div class="field">
-                    <label for="email_id">email_id</label>
+                    <label for="email_id">Email</label>
                     <input type="text" name="email_id" id="email_id">
                 </div>
                 <div class="field">
-                    <label for="message">message</label>
+                    <label for="message">Mensaje</label>
                     <input type="text" name="message" id="message">
                 </div>
-    
+
                 <input type="submit" id="button" value="Send Email">
             </form>
         </div>
+
+        <!-- Sociales -->
+
+        <div class="section footer">
+            <div class="social">
+                <a href="https://github.com/DanielaVel7" target="_blank">
+                    <img src="./imagenes/GitHub.png" alt="icono de github">
+                </a>
+                <a href="www.linkedin.com/in/danielavelazco96" target="_blank">
+                    <img src="./imagenes/linkedin.png" alt="icono de linkedin">
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-content">
+            <p>&copy; 2024 Mi Empresa. Todos los derechos reservados.</p>
+        </div>
+
     </div>
 
-    <!-- Codigo email.js -->
 
-    <script src="./email.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script type="text/javascript">
-        emailjs.init('iA3PDkjHfYOa1CfqC')
-    </script>
+            <!-- Codigo email.js -->
+
+            <script src=" ./email.js"></script>
+                    <script type="text/javascript"
+                        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+                    <script type="text/javascript">
+                        emailjs.init('iA3PDkjHfYOa1CfqC')
+                    </script>
 </body>
 
 </html

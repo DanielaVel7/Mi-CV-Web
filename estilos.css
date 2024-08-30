@@ -137,23 +137,64 @@ body {
     border: none
   }
 
+  /* contacto */
   .email {
     justify-content: space-between;
     height: 20px;
 
+
   }
 
   .sendemail {
-    width: 50px;
+    width: 30px;
     height: auto;
-    object-fit: cover;
 
   }
 
   .title {
-    font-size: 2em;
-    margin-inline-end: auto;
-    
+    border-bottom: 0;
   }
 
+  #form {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .field {
+    margin-bottom: 20px; 
+  }
+
+  #button{
+    background-color: black;
+    color: #fff;
+    font-size: medium;
+    border-radius: 20px;
+  }
+
+  #button:hover {
+    background-color: #fff;
+    cursor: pointer;
+    color: black;
+  }
+
+  /* Pie de pagina */
+
+  .footer-content {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
   
+  .section footer {
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+  }
+
+  .social img{
+    width: 5%;
+    gap: 50%;
+
+  }
