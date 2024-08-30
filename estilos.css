@@ -136,3 +136,24 @@ body {
     color: #fff;
     border: none
   }
+
+  .email {
+    justify-content: space-between;
+    height: 20px;
+
+  }
+
+  .sendemail {
+    width: 50px;
+    height: auto;
+    object-fit: cover;
+
+  }
+
+  .title {
+    font-size: 2em;
+    margin-inline-end: auto;
+    
+  }
+
+  
